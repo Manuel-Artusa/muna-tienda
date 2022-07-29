@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
-    crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>Muná Tienda</title>
 </head>
@@ -43,7 +44,7 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="./pages/productos.html">Velas</a></li>
-                                <li><a class="dropdown-item" href="./pages/productos.html">Dijes</a></li>                           
+                                <li><a class="dropdown-item" href="./pages/productos.html">Dijes</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -60,9 +61,38 @@
     </header>
     <!--MAIN-->
     <main>
-        <section class="hero">
-            <h1>OFERTAS PRIMAVERA</h1>
-            <p>Hasta 30% OFF</p>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/IMG_5367.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/IMG_5375.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/IMG_5617.JPG" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
 
         </section>
         <section class="ofertas">
@@ -71,33 +101,33 @@
                 <div class="card" style="width: 18rem;">
                     <img src="./img/IMG_5516.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Vela de cera de Soja - amarilla</h5>
-                    <p class="card-text">$400</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Vela de cera de Soja - amarilla</h5>
+                        <p class="card-text">$400</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
                     <img src="./img/IMG_5517.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Vela de cera de Soja - violeta</h5>
-                    <p class="card-text">$450</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Vela de cera de Soja - violeta</h5>
+                        <p class="card-text">$450</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
                     <img src="./img/IMG_5629.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Vela de cera de Soja - PEZ</h5>
-                    <p class="card-text">$350</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Vela de cera de Soja - PEZ</h5>
+                        <p class="card-text">$350</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
                     <img src="./img/IMG_5355.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Vela de cera de Soja - lavanda</h5>
-                    <p class="card-text">$500</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Vela de cera de Soja - lavanda</h5>
+                        <p class="card-text">$500</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>

@@ -56,19 +56,8 @@ body{
     text-align: left;
     
 }
-.hero P{
-    font-size: 30px;
-    font-weight: 300;
-}
-
-.hero{
-    width: 100%;
-    height: 50vh;
-    background-image: url("../img/IMG_5517.JPG");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.carousel-inner img{
+    height: 80vh;
 }
 
 .ofertas h2{
