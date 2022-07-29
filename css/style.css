@@ -86,12 +86,12 @@ body{
 }
 .ofertas div div{
     width: 200px;
-    height: 300px;
     border: 1px solid gainsboro;
     margin-bottom: 20px;
     text-align: center;
     background-color: rgb(243, 233, 217);
     display:inline-block ;
+    justify-content: center;
 
 }
 .ofertas div div a{
@@ -107,7 +107,7 @@ body{
 }
 .productos div div{
     width: 200px;
-    height: 300px;
+    
     border: 1px solid gainsboro;
     margin-bottom: 20px;
     text-align: center;
