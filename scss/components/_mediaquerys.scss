@@ -1,0 +1,42 @@
+@media screen and (max-width:902px){
+    footer{
+        
+        flex-direction: column;
+}
+
+    .redireccion{
+        
+        flex-direction: column;
+        display: flex;
+        align-items: center;       
+}
+}
+
+@media screen and (max-width:420) {
+    .hero {
+        img{
+            height:50%;
+        }
+        
+    }
+}
+@media screen and (max-width:352px) {
+    .hero {
+        height: 25vh;
+        h1{
+            font-size: 25px;
+        }
+        p{           
+            font-size: 15px;
+        }
+    }
+}
+@media screen and (max-width:340px) {
+    .ofertas{
+        h2{
+            font-size: 26px;
+    
+        }
+    }
+    
+}

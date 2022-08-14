@@ -1,0 +1,43 @@
+.hero{
+    h1{
+        color: rgb(199, 111, 10);
+        font-size: 50px;
+        font-weight: 100px;
+        font-style: italic;
+        letter-spacing: 2px;
+        text-align: left;
+    }
+}
+.carousel-inner{
+    img{
+        height: 80vh;
+    }
+}
+.ofertas{
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    h2{
+        margin: 20px;
+        font-size: 40px;
+        font-style: italic;
+    }
+    div{
+        margin: 15px;
+        div{
+            width: 200px;
+            border: 1px solid gainsboro;
+            margin-bottom: 20px;
+            text-align: center;
+            background-color: rgb(243, 233, 217);
+            display:inline-block ;
+            justify-content: center;
+            a{
+                text-decoration: none;
+                color: white;
+                background-color: rgb(216, 123, 35);
+            }
+        }
+    }
+}
