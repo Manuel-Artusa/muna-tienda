@@ -1,0 +1,9 @@
+@mixin modo ($darkmode) {
+    @if $darkmode == black{
+        background-color:rgb(226, 181, 58);
+    }
+        @else{
+            background-color: rgb(221, 186, 90);;
+        }
+    
+}
