@@ -1,15 +1,22 @@
+strong{
+    font-size: 20vh;
+    @extend %flex;
+    background-color:#e0b746
+}
 .grid-container{
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2px;
+    gap: 4px;
 }
 
 .grid-items{
-    
+    transition: transform .2s;
     &:hover{
         border: 2px solid brown;
-        transform: scale(1.045);
+        transform: scale(0.950);
+        
+        
     }
     img{
         width: 100%;

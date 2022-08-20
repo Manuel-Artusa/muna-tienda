@@ -27,13 +27,12 @@ header nav {
           font-size: 15px;
           color: #c76f0a; }
 
-.hero h1 {
+h1 {
   color: #c76f0a;
-  font-size: 50px;
-  font-weight: 100px;
   font-style: italic;
   letter-spacing: 2px;
-  text-align: left; }
+  text-align: left;
+  font-size: 100px; }
 
 .carousel-inner img {
   height: 80vh; }
@@ -111,25 +110,34 @@ footer {
   .ofertas h2 {
     font-size: 26px; } }
 
-.acerca p {
+@media screen and (max-width: 749px) {
+  h1 {
+    font-size: 50px; } }
+
+h1, .acerca p, strong {
   display: flex;
   justify-content: center;
   align-items: center; }
 
+strong {
+  font-size: 20vh;
+  background-color: #e0b746; }
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 2px; }
+  gap: 4px; }
 
-.grid-items:hover {
-  border: 2px solid brown;
-  transform: scale(1.045); }
-
-.grid-items img {
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center; }
+.grid-items {
+  transition: transform .2s; }
+  .grid-items:hover {
+    border: 2px solid brown;
+    transform: scale(0.95); }
+  .grid-items img {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center; }
 
 .productos div {
   margin: 10px;
