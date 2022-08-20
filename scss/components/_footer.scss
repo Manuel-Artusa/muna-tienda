@@ -32,11 +32,3 @@ footer{
     }
 }
 
-footer{
-    @include modo (black)
-}
-
-footer img{
-    height: map-get($map:"$imgfooter", $key:height);
-    width: map-get($map:"$imgfooter" ,$key:width);
-}

@@ -1,0 +1,35 @@
+.productos{
+    div{
+        margin: 10px;
+        flex-wrap: wrap;
+        div{
+            width: 200px;
+    
+            border: 1px solid gainsboro;
+            margin-bottom: 20px;
+            text-align: center;
+            background-color: rgb(243, 233, 217);
+            display:inline-block ;
+            img{
+                width: 200px;
+                height: 200px;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                background-color: rgb(216, 123, 35);
+            }
+        }
+    }
+    h1{
+        color: rgb(199, 111, 10);
+        font-size: 150px;
+        font-style: italic;
+        background-color: beige;
+    }
+    h2{
+        margin: 20px;
+        font-size: 40px;
+        font-style: italic;
+    }
+}
