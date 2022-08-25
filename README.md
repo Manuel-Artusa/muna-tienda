@@ -1,5 +1,5 @@
 # muna-tienda
-E-commerce.
+<p>E-commerce.</p>
 Primer proyecto dedicado a un e-commerce.
 Estado del proyecto: en proceso...
 tecnologias utilizadas: html, css.
