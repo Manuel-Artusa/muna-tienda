@@ -1,7 +1,7 @@
 # muna-tienda
 <p>E-commerce.</p>
-Primer proyecto dedicado a un e-commerce.
-Estado del proyecto: en proceso...
-tecnologias utilizadas: html, css.
-personas contribuyentes: Artusa, Manuel.
-proyecto para CoderHouse.
+<p>Primer proyecto dedicado a un e-commerce.</p>
+<p>stado del proyecto: en proceso...</p>
+<p>tecnologias utilizadas: html, css. </p>
+<p>personas contribuyentes: Artusa, Manuel.</p>
+<p>proyecto para CoderHouse.</p>
