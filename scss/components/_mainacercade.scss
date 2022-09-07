@@ -1,3 +1,9 @@
 .acerca p{
     @extend %flex
 }
+h2{
+    text-align: center;
+}
+.ubicacion{
+    display: flex;
+}

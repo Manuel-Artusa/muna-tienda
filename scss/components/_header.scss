@@ -17,6 +17,7 @@ header{
                     text-decoration: none;
                     color: rgb(80, 79, 79);
                     &:hover{
+                        transform:scale(0.9);
                         text-decoration:wavy; 
                         font-size: 15px;
                         color: rgb(199, 111, 10) ;

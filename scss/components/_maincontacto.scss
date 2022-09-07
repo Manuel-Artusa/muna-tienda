@@ -5,6 +5,19 @@
         display: flex;
         justify-content: center;
     }
+    img{
+        height: 600px;
+        width:400px;
+    }
+    
+}
+.medio{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 40px;
+    gap: 50px;
+    justify-content: space-between;
+
 }
 
 .info{
@@ -17,13 +30,16 @@
 }
 .contacto-info{
     width: 300px;
-    height: 70vh;
-    margin: 40px;
+    height: 70vh;    
     border: 2px solid rgb(236, 165, 72);
     background-color: rgba(202, 193, 181, 0.596);
     text-align: center;
     justify-content: flex-start;
+    
     form{
         justify-content: center;
+        margin: 4px;
+        padding: 4px;
     }
+
 }
